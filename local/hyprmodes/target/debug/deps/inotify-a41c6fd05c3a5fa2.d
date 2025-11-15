@@ -1,0 +1,10 @@
+/home/kvl/src/hyprmodes/target/debug/deps/libinotify-a41c6fd05c3a5fa2.rmeta: /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/lib.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/events.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/fd_guard.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/inotify.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/util.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/watches.rs
+
+/home/kvl/src/hyprmodes/target/debug/deps/inotify-a41c6fd05c3a5fa2.d: /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/lib.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/events.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/fd_guard.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/inotify.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/util.rs /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/watches.rs
+
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/lib.rs:
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/events.rs:
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/fd_guard.rs:
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/inotify.rs:
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/util.rs:
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inotify-0.7.1/src/watches.rs:

@@ -1,0 +1,194 @@
+@import "colors.css";
+/* @import "themes/gruvbox.css"; */
+/* @import "maincolors-light.css"; */
+@import "maincolors.css";
+
+@keyframes gradient-animation {
+  0% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @accent, @color2, @color3, @color4, @color5, @color6);
+  }
+  16% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @color6, @accent, @color2, @color3, @color4, @color5);
+  }
+  33% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @color5, @color6, @accent, @color2, @color3, @color4);
+  }
+  50% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @color4, @color5, @color6, @accent, @color2, @color3);
+  }
+  66% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @color3, @color4, @color5, @color6, @accent, @color2);
+  }
+  83% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @color2, @color3, @color4, @color5, @color6, @accent);
+  }
+  100% {
+    background: radial-gradient(ellipse farthest-corner at 12px -24px, @accent, @color2, @color3, @color4, @color5, @color6);
+  }
+}
+
+* {
+  /* font-family: "JetbrainsMono"; */
+  font-family: "Zed Mono Nerd Font";
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: @background;
+  color: @foreground;
+}
+
+#custom-tux,
+#custom-user,
+#backlight,
+#battery,
+#cpu,
+#disk,
+#idle_inhibitor,
+#keyboard-state,
+#pulseaudio,
+#clock,
+#tags,
+#language,
+#memory,
+#network,
+#sndio,
+#mode,
+#window,
+#custom-window,
+#workspaces,
+#temperature,
+#taskbar,
+#custom-treefetch-downloads,
+#custom-archupdates,
+#custom-axyl-downloads,
+#custom-gpu-temp,
+#custom-artix,
+#custom-cpubars,
+#custom-nettrf,
+#custom-submap,
+#cava,
+#custom-nowplaying,
+#custom-weather,
+#tray,
+#custom-cputemp {
+  background: @background;
+  color: @foreground;
+  font-size: 13px;
+  margin: 0;
+}
+
+.modules-left,
+.modules-right {
+  background-color: @background;
+  padding: 0;
+}
+
+#workspaces {
+}
+
+#workspaces button {
+  font-size: 15px;
+  padding: 0 8px;
+  min-width: 1px;
+}
+
+#workspaces button.empty {
+  color: @foreground;
+}
+
+#workspaces button.visible {
+  padding: 0 8px;
+  min-width: 1px;
+  color: @accent;
+}
+
+#workspaces button.focused {
+  padding: 0 8px;
+  background-color: @color1;
+  color: @foreground;
+}
+
+#workspaces button.active {
+  padding: 0 8px;
+  background-color: @color1;
+  color: @foreground;
+}
+
+#custom-nowplaying {
+  padding: 0 10px 0 0;
+}
+
+#cava {
+  padding: 0 10px 0 0;
+}
+
+#window {
+  padding: 0 10px 0 0;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+  color: transparent;
+  padding: 0 10px 0 0;
+}
+
+window#waybar.empty {
+  background-color: @background;
+  padding: 0 10px 0 0;
+}
+
+#custom-separator,
+#custom-no-separator {
+  margin: 0 0.3em;
+  background: @background;
+  color: #808080;
+  font-size: 15px;
+  /*font-size: 1.1em;*/
+}
+
+#custom-cpubars {
+  color: @color1;
+}
+
+#custom-linux-icon {
+  font-size: 16px;
+  margin: 0;
+  color: @color1;
+  background: @background;
+}
+
+#custom-submap,
+#custom-workspaces {
+  color: @background;
+  background: radial-gradient(ellipse farthest-corner at 12px -24px, @accent, @color2, @color3, @color4, @color5, @color6);
+  box-shadow: 0 0 0 1px rgba(5, 5, 15, 0.15);
+  min-width: 45px;
+  transition: all 0.25s, color 0s, border 0s, font-weight 0s, background 0.15s;
+  animation-name: gradient-animation;
+  animation-direction: reverse;
+  animation-duration: 10s;
+  animation-delay: 0.35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  margin: 0;
+}
+
+#custom-submap {
+  padding-left: 7px;
+  padding-right: 6.9px;
+  margin: 0 10px 0 0;
+}
+
+#custom-workspaces {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* #clock { */
+/*   padding-left: 18px; */
+/*   padding-right: 18px; */
+/*   background-color: @shadow; */
+/*   color: @color1; */
+/* } */

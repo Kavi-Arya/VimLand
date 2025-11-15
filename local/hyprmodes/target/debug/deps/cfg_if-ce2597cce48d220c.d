@@ -1,0 +1,5 @@
+/home/kvl/src/hyprmodes/target/debug/deps/cfg_if-ce2597cce48d220c.d: /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-0.1.10/src/lib.rs
+
+/home/kvl/src/hyprmodes/target/debug/deps/libcfg_if-ce2597cce48d220c.rmeta: /home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-0.1.10/src/lib.rs
+
+/home/kvl/.local/share/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-0.1.10/src/lib.rs:
